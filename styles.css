@@ -1,1 +1,37 @@
 /*  your css code here. If applicable */
+*{
+    background-color: grey;
+}
+h1{
+    text-align: center;
+}
+ .player_one ul, li,a{
+    background-color: white;
+    text-decoration: none;
+    list-style: none;
+    padding: 2px;
+ }
+
+ h2{
+    text-align: center;
+    /* background-color: white; */
+}
+
+.player_two {    
+    background-color: white;
+    margin: 0 auto;
+    padding: 20px;
+    width: 400px;
+    text-align: center;    
+}
+
+.player_two h2, h3{
+    background-color: white;
+}
+h3{
+    text-align: left;
+}
+.player_two audio, video{
+    background-color: white;
+    width: 400px;
+}
