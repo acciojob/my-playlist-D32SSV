@@ -1,15 +1,25 @@
 /*  your css code here. If applicable */
 *{
-    background-color: grey;
+    background-color: rgb(204, 204, 204);
+    text-decoration-line:none;
+
 }
 h1{
     text-align: center;
 }
- .player_one ul, li,a{
-    background-color: white;
+
+ div.player_one {
+    background-color: rgb(255, 255, 255);
     text-decoration: none;
-    list-style: none;
+    list-style-type: none;
     padding: 2px;
+    border-radius: 10px;
+ }
+
+ ul, li,a{
+    list-style-type: none;
+    background-color: rgb(255, 255, 255);
+
  }
 
  h2{
@@ -18,11 +28,12 @@ h1{
 }
 
 .player_two {    
-    background-color: white;
+    background-color: rgb(255, 255, 255);
     margin: 0 auto;
-    padding: 20px;
+    padding: 2px;
     width: 400px;
-    text-align: center;    
+    /* text-align: center;     */
+    border-radius: 10px;
 }
 
 .player_two h2, h3{
