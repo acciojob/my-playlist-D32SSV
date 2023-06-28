@@ -12,17 +12,20 @@ h1{
     background-color: rgb();
     text-decoration: none;
     list-style-type: none;
-    padding: 2px;
-    border-radius: 10px;
+    /* padding: 2px; */
+    border-radius: 50px;
+    margin: 10px;
  }
 
  ul, li,a{
     background-color: rgb(255, 255, 255);
+    border-radius: 10px;
 
  }
 
-li{
+li {
 	    list-style-type: none;
+      
 }
 
  h2{
@@ -47,5 +50,7 @@ h3{
 }
 .player_two audio, video{
     background-color: white;
-    width: 400px;
+    width: 380px;
+    padding-left: 10px;
+    padding-top: 10px;
 }
